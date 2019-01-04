@@ -1,0 +1,22 @@
+## ¿Que es la programación?
+- Un programa es una secuencia de instrucciones que describe como realizar un cómputo
+- Casi todos los programas realizan las siguientes tareas:
+    - input
+    - output
+    - Operaciones matematicas
+    - Ejecucion condicional
+    - Repeticiones
+- Objetivos del curso
+    - Aprender a pensar como un Cientifico de computo
+    - Aprender a usar python
+    - Entender las ventajas y desventajas de python
+    - Aprender a construir una aplicacion de linea de comandos
+- ¿Por qué programar con python?
+    - Tiene una amplia comunidad
+    - Facil para principantes
+    - Popularidad, top 5 lenguajes segun Github
+    - Tiene un conjunto de Librerias más amplito pypi.
+    - Varios de los gigantes y startups de la industria lo usan, dar mucha velocidad al programador.
+    - "Python cuando podamos, C++ cuando necesitemos" - Google.
+- Algunos comandos importantes
+- `python --version` para obtener la version de python
