@@ -89,3 +89,16 @@ Las funcones se pueden componer, es decir una funcion puede ponerse como paramet
 Los argumentos de las funciones pueden ser posicionales(positional arguments) o con nombre (named arguments)
 
 El orden de ejecución es de arriba hacia abajo y de izquierda a derecha
+
+### Operarodes
+Para comprender el flujo de nuestro programa debemos entender un poco sobre estructuras y expresiones booleanas
+
+- `==` se refiere a igualdad
+- `!=` no hay igualdad.
+- `>` mayor que
+- `<` menor que
+- `>=` mayor o igual
+- `<=` menor o igual
+- `and` unicamente es verdadero cuando ambos valores son verdaderos
+- `or` es verdadero cuando uno de los dos valores es verdadero.
+- `not` es lo contrario al valor. Falso es Verdadero. Verdadero es Falso.
