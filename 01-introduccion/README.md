@@ -37,3 +37,29 @@ Python tiene los siguientes tipos de operadores:
 - Para obtener el tipo de un valor usamos la funcion `type(<valor>)`
 - Es importante conocer el tipo de un valor ya que dependiendo del tipo los operadores van a funcionar de manera diferente
 - Hay operadores que no funcionan en ciertos tipos de datos
+
+### Variables y expresiones
+Una **variable** es simplemente el contenedor de un valor. Es una forma de decirle a la computadora de que nos guarde un valor para luego usarlo.
+
+Python es un lenguaje dinámico, este concepto de privado y público se genera por convenciones del lenguaje. En programación el signo `=` significa asignación.
+
+Si una variable esta en mayúscula, usualmente se refiere a una constante, no debería reasignarse. Es una convención.
+
+**Reglas de variables**
+- Pueden contener números y letras
+- No deben comenzar con número
+- Múltiples palabras se unen con `_`
+- No se pueden utilizar palabras reservadas: `False`, `for`, `class`, `or`, etc.
+
+**Convenciones de python**
+
+En python no existen como tal los modificadores de acceso, más bien es por convención,
+- Las variables 'privadas' empiezan con `_`, no deben ser modificadas.
+- Los nombres de las 'constantes' estan en mayuscula por ejempl:`PI`, no deben ser modificadas.
+- Las variables que empiezan con doble guion bajo signican 'No toques esto por qu se rompe', por ejemplo: `__esto_es_importante` (Variables superprivadas)
+
+**Expresiones**: son instrucciones para el interprete para evaluar la expresión. Los enunciados(statements) tienen efectos dentro del programa, como `print()` que genera un output.
+
+Para evaluar una expresion python usa la precedencia de operadores.
+
+**PEMDAS** = Paréntesis, Exponente, Multiplicación, Adicción, Substracción
