@@ -19,4 +19,21 @@
     - Varios de los gigantes y startups de la industria lo usan, dar mucha velocidad al programador.
     - "Python cuando podamos, C++ cuando necesitemos" - Google.
 - Algunos comandos importantes
-- `python --version` para obtener la version de python
+- `python --version` para obtener la version de pyt
+
+### Operadores
+Python tiene los siguientes tipos de operadores:
+- Operadores aritmeticos: +,-,*,//,…
+- Operadores de comparación(Relacionales) : ==, !=,<, >,…
+- Operadores de asignación: =, +=, -= //=, …
+- Operadores logicos: and, or, not
+- Operadores binarios: &, |, ^, ~, <<, >>
+- Membership Operators: in, not in
+- Operadores de identidad: is, not is
+- Un punto importante a la hora de programar es conocer la precedencia de los operadores
+- [Más info aqui](https://www.geeksforgeeks.org/basic-operators-python/)
+
+- Los operadores son contextuales, dependen del tipo de valor.
+- Para obtener el tipo de un valor usamos la funcion `type(<valor>)`
+- Es importante conocer el tipo de un valor ya que dependiendo del tipo los operadores van a funcionar de manera diferente
+- Hay operadores que no funcionan en ciertos tipos de datos
