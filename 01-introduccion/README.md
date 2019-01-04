@@ -71,3 +71,21 @@ La forma de instalar paquetes en nuestro sistema es a travez de `pip`
 
 Es buena practica mantener varios entornos para cada aplicación, esto lo podemos hacer usando el paquete `virtualenv`,
 el cual nos permite tener entornos aislados con dependencias diferentes para cada aplicación.
+
+
+### Funciones
+En el contexto de la programación las funciones son simplemente una agrupación de enunciados(statments) que tienen un nombre. Una función tiene un nombre, debe ser descriptivo, puede tener parámetros y puede regresar un valor después que se generó el cómputo.
+
+Python es un lenguaje que se conoce como *batteries include*(baterías incluidas) esto significa que tiene una librería estándar con muchas funciones y librerías.
+
+Para declarar funciones que no son las globales, las *built-in functions*, necesitamos importar un módulo [Ver más](https://docs.python.org/3/library/functions.html).
+
+Con el keyword `def` declaramos una función.
+
+Para usar funciones que se encuentran en otros modulos necesitamos importar esos modulos
+
+Las funcones se pueden componer, es decir una funcion puede ponerse como parametro de otra, esto lo que hara sera evaluar la primera y regresar el resultado le cual sera usado por la funcion externa.
+
+Los argumentos de las funciones pueden ser posicionales(positional arguments) o con nombre (named arguments)
+
+El orden de ejecución es de arriba hacia abajo y de izquierda a derecha
