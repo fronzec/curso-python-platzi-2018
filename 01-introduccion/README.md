@@ -63,3 +63,11 @@ En python no existen como tal los modificadores de acceso, más bien es por conv
 Para evaluar una expresion python usa la precedencia de operadores.
 
 **PEMDAS** = Paréntesis, Exponente, Multiplicación, Adicción, Substracción
+
+### Paquetes de terceros PyPi(Python package index)
+PyPi es un repositorio de librerias para python.
+
+La forma de instalar paquetes en nuestro sistema es a travez de `pip`
+
+Es buena practica mantener varios entornos para cada aplicación, esto lo podemos hacer usando el paquete `virtualenv`,
+el cual nos permite tener entornos aislados con dependencias diferentes para cada aplicación.
