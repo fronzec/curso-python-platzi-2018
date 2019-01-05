@@ -16,3 +16,17 @@ Algo importante en python es que los string son reutilizados a lo largo del prog
 
 Para conocer la dirección de un objeto en memoria podemos usar la funcion `id(<objeto>)`
 
+## Operaciones con strings
+Los strings tienen varios métodos que nosotros podemos utilizar.
+
+- `upper`: convierte todo el string a mayúsculas
+- `lower`: convierte todo el string a minúsculas
+- `find`: encuentra el indice en donde existe un patrón que nosotros definimos
+- `startswith`: significa que empieza con algún patrón.
+- `endswith`: significa que termina con algún patrón
+- `capitalize`: coloca la primera letra en mayúscula y el resto en minúscula
+- `in` y `not in` (Operadores de pertenencia) nos permite saber con cualquier secuencia sin una subsecuencia o substrings se encuentra adentro de la secuencia mayor.
+- `dir`: Nos dice todos los métodos que podemos utilizar dentro de un objeto.
+- `help`: nos imprime en pantalla el docstrings o comentario de ayuda o instrucciones que posee la función. Casi todas las funciones en Python las tienen.
+
+Las comparacione de strings en python son lexicograficas, es decir 'A' no es igual que 'a'
