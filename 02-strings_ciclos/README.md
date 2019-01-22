@@ -50,3 +50,10 @@ for loops:
 Es una convención usar la letra `i` como variable en nuestro for, pero podemos colocar la que queramos.
 
 `range`: Nos da un objeto rango, es un iterador sobre el cual podemos generar secuencias, esto es algo nuevo en python 3.
+
+## While loops
+Al igual que las for loops, las while loops nos sirve para iterar, pero las for loops nos sirve para iterar a lo largo de una secuencia mientras que las while loops nos sirve para iterar mientras una condición sea verdadera.
+
+Si no tenemos un mecanismo para convertir el mecanismo en falsedad, entonces nuestro while loops se ira al infinito(infinite loop)
+
+Si en algún momento caemos en un while loop en sistemas UNIX podemos parar la ejecución de un programa usando `CTRL + C`

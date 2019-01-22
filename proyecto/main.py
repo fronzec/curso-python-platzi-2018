@@ -63,7 +63,10 @@ def _print_welcome():
 
 
 def _get_client_name():
-    return input("¿Cual es el nombre del cliente? ")
+    client_name = None
+    while not client_name:
+        client_name = input("¿Cual es el nombre del cliente? ")
+    return client_name
 
 
 if __name__ == '__main__':
