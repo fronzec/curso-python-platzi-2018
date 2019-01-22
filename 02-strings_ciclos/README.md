@@ -30,3 +30,11 @@ Los strings tienen varios métodos que nosotros podemos utilizar.
 - `help`: nos imprime en pantalla el docstrings o comentario de ayuda o instrucciones que posee la función. Casi todas las funciones en Python las tienen.
 
 Las comparacione de strings en python son lexicograficas, es decir 'A' no es igual que 'a'
+## Slices
+Slices en españoll significa "rebanada", si tenemos una secuencia de elementos y queremos una rebanada tenemos
+una sintaxis para definir que pedazos queremos de una secuencia
+
+- `secuencia[comienzo:final:pasos]`
+
+- El comienzo es inclusivo y el primer indice es 0
+- El final no es inclusivo
