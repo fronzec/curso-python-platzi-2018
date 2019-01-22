@@ -38,3 +38,15 @@ una sintaxis para definir que pedazos queremos de una secuencia
 
 - El comienzo es inclusivo y el primer indice es 0
 - El final no es inclusivo
+## For loops
+Los for loops nos permiten iterar a través de una secuencia
+
+for loops:
+   - Tienen dos keywords `break` y `continue` que nos permiten salir anticipadamente del ciclo o saltar a la siguiente iteracion respectivamente.
+   - Se usan cuando se quiere ejecutar varias veces una o varias instrucciones.
+   - for [variable] in [secuencia]:
+
+
+Es una convención usar la letra `i` como variable en nuestro for, pero podemos colocar la que queramos.
+
+`range`: Nos da un objeto rango, es un iterador sobre el cual podemos generar secuencias, esto es algo nuevo en python 3.
