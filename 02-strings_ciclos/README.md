@@ -57,3 +57,42 @@ Al igual que las for loops, las while loops nos sirve para iterar, pero las for 
 Si no tenemos un mecanismo para convertir el mecanismo en falsedad, entonces nuestro while loops se ira al infinito(infinite loop)
 
 Si en algún momento caemos en un while loop en sistemas UNIX podemos parar la ejecución de un programa usando `CTRL + C`
+
+## Iterators and generators
+Un iterador es un objeto que cumple con los requisitos de Iteration Protocol y por lo tanto
+puede ser utilizado en ciclos, por ejemplo:
+
+```python
+for i in range(10):
+    print(i)
+```
+
+En este caso, la función range es un iterable que regresa un nuevo valor en cada ciclo.
+
+Para crear un objeto que sea un iterable, y por lo tanto, implemente el protocolo de iteración, debemos hacer tres cosas:
+-  Crear una clase que implemente los métodos iter y next
+- iter debe regresar el objeto sobre el cual se iterará
+- next debe regresar el siguiente valor y aventar la excepciób StopIteration cuando ya no hayan elementos sobre los cual  iterar
+
+En otro lado los generadores son simplemente una funcion rápida de crear iterables sin la
+necesidad de declarar una clase que implemente el protocolo de iteración.
+
+Para crear un generator simplemente declaramos una función y utilizamos el keyword yield en vez de return
+para regresar el siguiente valor en una iteración. Por ejemplo:
+
+```python
+def fibonacci(max):
+    a, b = 0, 1
+    while a < max:
+        yield a
+        a, b = b, a + b
+```
+
+Es importante recalcar que una vez que se ha agotado un generator ya no podemos utilizarlo y debemos crear una instancia nueva. Por ejemplo:
+```
+fib1 = fibonacci(20)
+fib_nums = [num for num in fib1]
+
+double_fib_nums = [num * 2 for num in fib1]  # no va a funcionar
+double_fib_nums = [num * 2 for num in fibonacci(30)]  # sí funciona
+```
